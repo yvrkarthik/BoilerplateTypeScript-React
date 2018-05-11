@@ -780,10 +780,9 @@ var Header = /** @class */ (function (_super) {
     Header.prototype.render = function () {
         return (React.createElement("div", null,
             React.createElement("h3", null,
-                "Hello from your project running in ",
+                "Hello from your project is now running ",
                 this.props.language,
                 " and",
-                " ",
                 this.props.compiler)));
     };
     return Header;
@@ -827,7 +826,7 @@ var MainApp = /** @class */ (function (_super) {
     function MainApp() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this._language = "TypeScript";
-        _this._compiler = "TSC";
+        _this._compiler = " TSC compiler command.";
         return _this;
     }
     MainApp.prototype.appStartedRunning = function () {
